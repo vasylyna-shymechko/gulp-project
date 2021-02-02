@@ -1,0 +1,32 @@
+@mixin flex ($d, $fd, $jc) {
+    display: $d;
+    flex-direction: $fd; 
+    justify-content: $jc;  
+    
+};
+@mixin text ($ff, $fs, $fw, $c, $fz) {
+    font-family: $ff;
+    font-style: $fs;
+    font-weight: $fw;
+    color: $c;
+    font-size: $fz;
+};
+@mixin block-small ($w, $h, $pl, $pr, $pb) {
+    width: $w;
+    height: $h;
+    padding-left: $pl;
+    padding-right: $pr;
+    padding-bottom: $pb;
+}
+@mixin icon ($d, $jc,$ai, $p, $t, $l, $w, $h, $br) {
+    display: $d;
+    justify-content: $jc;
+    align-items: $ai;
+     position: $p;
+     top: $t;
+     left: $l;
+     width: $w;
+     height: $h;
+     border-radius: $br;
+    
+}
